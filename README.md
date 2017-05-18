@@ -57,8 +57,15 @@ Before you get to the task of creating a new database for SonarQube, you need to
 
 > > ![](images/sonar6.PNG)
 
+Back to **SQL Server Management Studio** (SSMS).
 
+> Create a new database called Sonar with sonar user as owner
 
+> > ![](images/sonar7.PNG)
+
+Now be sure to select the correct Collation, remember that you should use a collation that is Case Sensitive and Accent Sensitive, like SQL_Latin1_General_CP1_CS_AS.
+
+> > ![](images/sonar8.PNG)
 
 
 How to create a SonarQube server on Azure with Template
