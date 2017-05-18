@@ -28,7 +28,7 @@
 
 2. **Install**
 	- Install **Java SE Runtime Environment** on the destination server.
-		![](imgages/sonar2.PNG)
+		![](imgages/sonar2.png)
 
 
 
