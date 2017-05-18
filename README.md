@@ -47,8 +47,11 @@ Before you get to the task of creating a new database for SonarQube, you need to
 
 > > ![](images/sonar4.PNG)
 
+> Then you should open Sql Server Configuration Manager, and you must enable the TCP Procol.
 
+> > ![](images/sonar5.PNG)
 
+> > ![](images/sonar6.PNG)
 
 
 
