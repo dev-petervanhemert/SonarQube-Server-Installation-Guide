@@ -26,17 +26,25 @@
 **>> NOTE >>** SonarQube does not require the full Java JDK (Java SE Development Kit) to run- you only need the JRE (Java SE Runtime Environment).
 
 
-2. **Install**
+2. **Install Java JRE**
 	- Install **Java SE Runtime Environment** on the destination server.
 	
 > > ![](images/sonar2.png)
 
+3. **Configure sql server**
 
+Before you get to the task of creating a new database for SonarQube, you need to complete a few preparations.
 
+1. **Launch SSMS**
+	- Launch **SQL Server Management Studio** (SSMS).
+	- Connect to the SQL Server instance on which you plan to create the database.
 
+> -Create a user called sonar with a password.
+> -Security > right click on Logins > New Login.
 
+> > ![](images/sonar3.PNG)
 
-
+> > ![](images/sonar4.PNG)
 
 
 
