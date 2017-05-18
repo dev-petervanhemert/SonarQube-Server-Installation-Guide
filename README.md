@@ -16,16 +16,17 @@
 1. **Download**
 	- Download **SonarQube 6.3.1** from the SonarQube [downloads](https://www.sonarqube.org/downloads/).
 
-		![](_img/SonarQube.Download.png)
+		
 	- As mentioned in the Prerequisites section, a Java virtual machine (JVM) is required.
 	- If the installed JVM meets the version requirements listed, you can skip this section. Otherwise, follow the steps below to install Java.
 	- Download [Java SE Runtime Environment](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html) and make sure you select the one corresponding to your current operation system.
 
-		![](_img/JavaSeRuntimeEnvironment.png)
+	
 		
 		**>> NOTE >>** SonarQube does not require the full Java JDK (Java SE Development Kit) to run- you only need the JRE (Java SE Runtime Environment).
 
 
+> ![](_img/JavaSeRuntimeEnvironment.png)
 
 
 
