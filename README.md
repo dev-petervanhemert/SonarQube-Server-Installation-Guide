@@ -23,7 +23,7 @@
 	
 > > ![](images/sonar1.PNG)
 		
-		**>> NOTE >>** SonarQube does not require the full Java JDK (Java SE Development Kit) to run- you only need the JRE (Java SE Runtime Environment).
+**>> NOTE >>** SonarQube does not require the full Java JDK (Java SE Development Kit) to run- you only need the JRE (Java SE Runtime Environment).
 
 
 2. **Install**
