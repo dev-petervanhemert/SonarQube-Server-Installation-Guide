@@ -63,9 +63,45 @@ Back to **SQL Server Management Studio** (SSMS).
 
 > > ![](images/sonar7.PNG)
 
-Now be sure to select the correct Collation, remember that you should use a collation that is Case Sensitive and Accent Sensitive, like SQL_Latin1_General_CP1_CS_AS.
+> Now be sure to select the correct Collation, remember that you should use a collation that is Case Sensitive and Accent Sensitive, like 
+
+> SQL_Latin1_General_CP1_CS_AS.
+
+> Specify the right Collation for the database. It should be CS and AS.
 
 > > ![](images/sonar8.PNG)
+
+
+> Now, just to be sure that everything is ok, try to connect from Management Studio using the port 1433 and with user sonar. 
+
+> To specify port you should use a comma between server name and the port.
+
+> > ![](images/sonar9.PNG)
+
+> Verify that you can see Sonar database. If you are able to connect and see Sonar Db you have everything ready. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 How to create a SonarQube server on Azure with Template
