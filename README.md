@@ -104,6 +104,10 @@ Back to **SQL Server Management Studio** (SSMS).
 
 > > ![](images/sonar12.PNG)
 
+Run startsonar.bat in C:\SonarQube\sonarqube-6.3.1\bin\windows-x86-64, to test.
+
+You can now browse SonarQube at http://localhost:9000 (the default System administrator credentials are admin/admin).
+Stop by pressing ctrl+c.
 
 
 
