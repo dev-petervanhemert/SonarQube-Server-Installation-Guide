@@ -51,6 +51,10 @@ Before you get to the task of creating a new database for SonarQube, you need to
 
 > > ![](images/sonar5.PNG)
 
+> Open Properties for TCP/IP protocol. 
+
+> Disable dynamic ports and specify 1433 as TCP Port.
+
 > > ![](images/sonar6.PNG)
 
 
