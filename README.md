@@ -80,20 +80,29 @@ Back to **SQL Server Management Studio** (SSMS).
 
 > Verify that you can see Sonar database. If you are able to connect and see Sonar Db you have everything ready. 
 
+4. **Extract SonarQube**
+
+- Right-click on sonarqube-x.x.zip, select Properties and then select the Unblock box. 
+
+> > ![](images/sonar10.PNG)
+
+- Unzip SonarQube-x.x.zip on to a drive, for example use C:\SonarQube\
+
+> > ![](images/sonar11.PNG)
+
+- At this point, the installation is complete.
 
 
 
+5. **Configure SonarQube**
 
 
 
+- Basic configuration of SonarQube consists of making a few updates to the sonar.properties file.
 
+- This file is located in the conf folder located under the SonarQube installation folder. Example: C:\SonarQube\SonarQube-6.3.1\conf\sonar.properties
 
-
-
-
-
-
-
+> > ![](images/sonar12.PNG)
 
 
 
