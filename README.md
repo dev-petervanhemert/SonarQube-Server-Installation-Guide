@@ -39,7 +39,8 @@ Before you get to the task of creating a new database for SonarQube, you need to
 	- Launch **SQL Server Management Studio** (SSMS).
 	- Connect to the SQL Server instance on which you plan to create the database.
 
-> -Create a user called sonar with a password.
+> -Create a user with SQL Server authentication, called sonar with a password.
+
 > -Security > right click on Logins > New Login.
 
 > > ![](images/sonar3.PNG)
