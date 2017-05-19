@@ -112,13 +112,25 @@ Stop by pressing ctrl+c.
 
 Allow firewall inbound port 9000 to make http://my-sonarqube-16.westeurope.cloudapp.azure.com work. 
 
-The final step is to open ports on the Windows firewall so we can access the SonarQube server and SQL from outside the machine. Return to the command prompt and simply run the following commands to add the firewall rules.
+Now open ports on the Server Windows firewall so we can access the SonarQube server and SQL from outside the machine. Return to the command prompt and simply run the following commands to add the firewall rules.
 
 netsh advfirewall firewall add rule name="SQL" dir=in action=allow protocol=TCP localport=1433
+
 netsh advfirewall firewall add rule name="Sonar" dir=in action=allow protocol=TCP localport=9000
 
+The final step is to open ports to a virtual machine with the Azure portal.
 
+https://docs.microsoft.com/en-us/azure/virtual-machines/windows/nsg-quickstart-portal
 
+Inbound securiry rules:
+
+-Allow RDP IN,
+
+-Allow HTTPS IN,
+
+-Allow SonarQube In,
+
+-Block All In.
 
 How to create a SonarQube server on Azure with Template
 
