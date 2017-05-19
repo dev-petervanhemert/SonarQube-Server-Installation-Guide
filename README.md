@@ -110,7 +110,7 @@ You can now browse SonarQube at http://localhost:9000 (the default System admini
 Stop by pressing ctrl+c.
 
 
-Allow firewall inbound port 9000 to make http://sonarsvr.domainx.local:9000/ work. 
+Allow firewall inbound port 9000 to make http://my-sonarqube-16.westeurope.cloudapp.azure.com work. 
 
 The final step is to open ports on the Windows firewall so we can access the SonarQube server and SQL from outside the machine. Return to the command prompt and simply run the following commands to add the firewall rules.
 
