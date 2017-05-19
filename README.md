@@ -104,6 +104,11 @@ Back to **SQL Server Management Studio** (SSMS).
 
 > > ![](images/sonar12.PNG)
 
+- In run prompt type services.msc and search for SonarQube service. Change the service logon user account to SonarUser. Start the service and refresh the services console after a few seconds to ensure that the service hasn’t failed. If the service has failed to start look in the log file to see the reason for the failure.
+
+> > ![](images/sonar13.png)
+
+
 Run startsonar.bat in C:\SonarQube\sonarqube-6.3.1\bin\windows-x86-64, to test.
 
 You can now browse SonarQube at http://localhost:9000 (the default System administrator credentials are admin/admin).
