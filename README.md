@@ -124,13 +124,13 @@ https://docs.microsoft.com/en-us/azure/virtual-machines/windows/nsg-quickstart-p
 
 Inbound securiry rules:
 
--Allow RDP IN,
+- Allow RDP IN,
 
--Allow HTTPS IN,
+- Allow HTTPS IN,
 
--Allow SonarQube In,
+- Allow SonarQube In,
 
--Block All In.
+- Block All In.
 
 How to create a SonarQube server on Azure with Template
 
