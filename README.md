@@ -132,6 +132,9 @@ Inbound securiry rules:
 
 - Block All In.
 
+----
+
+
 How to create a SonarQube server on Azure with Template
 
 https://github.com/Azure/azure-quickstart-templates/tree/master/sonarqube-azuresql
