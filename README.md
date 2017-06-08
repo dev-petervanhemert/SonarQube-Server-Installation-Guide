@@ -1,13 +1,8 @@
-# Setting Up Sonar Server for VSTS 2017.
+# Setting Up SonarQube Server.
 
-### Minimum Deployment
+	**>> NOTE >>** In this guide, we will demonstrate the installation and configurations using an Azure VM server 2016 r2 and sql 2016 express. 
 
--   All TFS Services, SQL Server and SonarQube, including Sonar Runner and Build Controller) hosted on a single computer.
--   Suitable for research, dogfooding and demonstration of entire end-to-end workflow on one machine.
-
-	**>> NOTE >>** In this guide, we will demonstrate the installation and configurations using an Azure VM server 2012 r2 and sql 2014 express. 
-
-### Medium Deployment
+### Deployment
 
 - TFS Services and SQL Server are hosted on a single computer and SonarQube (all components) on a separate machine.
 - Suitable for evaluation in production or near-production environments.
