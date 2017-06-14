@@ -35,13 +35,13 @@ Before you get to the task of creating a new database for SonarQube, you need to
 	- Connect to the SQL Server instance on which you plan to create the database.
  - Select left button on the server instance and select properties => Security.
  
-> <img src="/images/12-sonar/00-Sonar.png" width="200"/>
+> <img src="/images/00-Sonar.png" width="200"/>
  
-> <img src="/images/12-sonar/01-Sonar.png" width="200"/>
+> <img src="/images/01-Sonar.png" width="200"/>
   
-> <img src="/images/12-sonar/02-Sonar.png" width="200"/>
+> <img src="/images/02-Sonar.png" width="200"/>
    
-> <img src="/images/12-sonar/03-Sonar.png" width="200"/>
+> <img src="/images/03-Sonar.png" width="200"/>
  
  - Select the **SQL Server and Windows Authentication**
  
